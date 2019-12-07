@@ -1,10 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Controls.js renders properly 1`] = `
+exports[`Dashboard.js renders properly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="display panel"
+      >
+        <div
+          class="led green-led"
+        >
+          Unlocked
+        </div>
+        <div
+          class="led green-led"
+        >
+          Open
+        </div>
+      </div>
       <div
         class="controls panel"
       >
@@ -23,6 +37,20 @@ Object {
     </div>
   </body>,
   "container": <div>
+    <div
+      class="display panel"
+    >
+      <div
+        class="led green-led"
+      >
+        Unlocked
+      </div>
+      <div
+        class="led green-led"
+      >
+        Open
+      </div>
+    </div>
     <div
       class="controls panel"
     >
