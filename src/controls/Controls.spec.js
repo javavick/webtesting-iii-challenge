@@ -53,6 +53,12 @@ test("Check if Close button is disabled if the Gate is locked", () => {
   expect(getByText("Close Gate")).toBeDisabled();
 });
 
+test("Check if Open button is disabled if the Gate is locked", () => {
+  const { getByText } = render(<Controls locked={true} closed={true} />);
+
+  expect(getByText("Open Gate")).toBeDisabled();
+});
+
 test("Check if Locked button is disabled if the Gate is open", () => {
   const { getByText } = render(<Controls closed={false} />);
 
